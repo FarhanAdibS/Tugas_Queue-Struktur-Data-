@@ -9,18 +9,16 @@ package tugas_struktur_data;
  *
  * @author Win 8.1
  */
-public class Uji_stack {
+public class Uji_Queue {
     public static void main(String[]args){
-        
-         Stack a=new Stack();
-        a.inisialisasi(5);
-        a.push(1);
-        a.push(2);
-        a.push(3);
-        a.push(4);
-        a.push(5);
-        a.pop();
-        
+        Queue a = new Queue();
+        a. inisialisasi(4);
+        a. enqueue(1);
+        a. enqueue(2);
+        a. enqueue(3);
+        a. enqueue(4);
+        a. enqueue(5);
+        a. dequeue();
     }
     
 }
